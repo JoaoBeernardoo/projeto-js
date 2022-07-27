@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   
+    
     <title>Projeto cronometro js</title>
 </head>
 <body>
@@ -11,15 +14,21 @@
     <audio id="sound" src="som/salamisound-7587855-double-beep-beep-as-e-g.mp3" style="display:none;"></audio>
 
    <div class="container">
-    <h2>Minutos:</h2>
-    <select name="Minutos" id="Minutos"></select>
+    <h2>minutos:</h2>
+    <select name="minutos" id="minutos"></select>
 
-     <h2>Segundos:</h2>
-     <select name="Segundos" id="Segundos"></select>
-
+     <h2>segundos:</h2>
+     <select name="segundos" id="segundos"></select>
+     <br>
+     <br>
      <button id="comecar">Começar</button>
+
+     <div id="display">
+        <h3></h3>
+     </div>
    </div>
 
-    
+   <script src="cr.js"></script>
+      
 </body>
 </html>

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+button{
+    background-color: #869;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+}
